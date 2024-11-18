@@ -1,0 +1,29 @@
+body{
+    background: black;
+    color: aliceblue;
+
+}
+
+.all{
+    background: white;
+}
+
+
+
+
+
+
+
+img{
+    width:300px;
+    height:200px;
+    
+}
+.village{
+    width:300px;
+    height:300px;
+}
+.castle{
+    width:300px;
+    height:300px;
+}

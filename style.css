@@ -25,14 +25,15 @@ p{
 
 
 img{
-    width:300px;
+    width:400px;
+    height:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
 
 }
-.village{
-    width:300px;
-    height:300px;
-    cursor: pointer;
-}
+
 .castle{
     width:300px;
     height:300px;
@@ -51,6 +52,7 @@ img{
 button{
     color: green;
     font-family:fantasy;
-  
 
+    height: 30px;
+  
 }

@@ -1,6 +1,7 @@
 body{
     background: black;
     color: aliceblue;
+    font-family:fantasy;
 
 }
 
@@ -49,6 +50,7 @@ img{
 
 button{
     color: green;
+    font-family:fantasy;
   
 
 }

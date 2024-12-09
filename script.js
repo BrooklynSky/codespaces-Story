@@ -35,7 +35,7 @@ left.addEventListener ("click", function(){
     left.style.display= "none";
     right.style.display= "none";
     village.style.display= "block";
-text.innerHTML="You run into a village! Double click to talk to the villagers"
+text.innerHTML="  You run into a village! Double click to talk to the villagers  "
 });
 
 
@@ -70,7 +70,7 @@ right.addEventListener ("click", function(){
     left.style.display= "none";
     right.style.display= "none";
     castle.style.display= "block";
-text.innerHTML="You run into a castle! Double click to get closer to the castle."
+text.innerHTML="  You run into a castle! Double click to get closer to the castle.  "
 });
 
 castle.addEventListener ("dblclick", function(){

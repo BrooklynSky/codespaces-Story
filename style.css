@@ -21,7 +21,28 @@ p{
     color: green;
     text-align: center;
 
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
 }
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px white, 0 0 40px green, 0 0 50px green, 0 0 60px yellowgreen, 0 0 70px yellowgreen;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px white, 0 0 40px white, 0 0 50px yellowgreen, 0 0 60px yellowgreen, 0 0 70px green, 0 0 80px green;
+    }
+  }
+
+
+
+
+
+
+
+
 
 
 img{
@@ -30,6 +51,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-color: grey;
   
 
 }
@@ -55,4 +77,13 @@ button{
 
     height: 30px;
   
+}
+
+.leftorright{
+    border-color: grey;
+}
+
+.king{
+    width: 500px;
+    height:700px;
 }

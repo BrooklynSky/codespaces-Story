@@ -18,7 +18,7 @@ body{
 }
 
 p{
-    color: #008000;
+    color: black;
     text-align: center;
 
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -51,7 +51,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-color: grey;
+
   
 
 }
@@ -59,6 +59,7 @@ img{
 .castle{
     width:300px;
     height:300px;
+
 }
 
 .end{
@@ -67,23 +68,31 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+
     
 }
 
 
-button{
-    color: green;
-    font-family:fantasy;
-
+.center{
+   
+ 
     height: 30px;
-  
+   margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.leftorright{
-    border-color: grey;
-}
+
+
+  
 
 .king{
-    width: 500px;
-    height:700px;
+    width: 450px;
+    height:600px;
+
 }
+
+
